@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace PruebaRep
 {
-    public partial class Form1 : Form
+    public partial class frm_formulario2 : Form
     {
-        public Form1()
+        public frm_formulario2()
         {
             InitializeComponent();
         }
 
-        private void btn_paramiform_Click(object sender, EventArgs e)
+        private void btn_nomedesclick_Click(object sender, EventArgs e)
         {
-            frm_formulario2 form2 = new frm_formulario2();
-            form2.Show();
+            MessageBox.Show("Dale Like o te dara Coronavirus mañana");
         }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -40,6 +41,19 @@
             this.label1.Size = new System.Drawing.Size(184, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Hola, qué hace?";
+            this.btn_paramiform = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btn_paramiform
+            // 
+            this.btn_paramiform.Location = new System.Drawing.Point(13, 13);
+            this.btn_paramiform.Name = "btn_paramiform";
+            this.btn_paramiform.Size = new System.Drawing.Size(75, 23);
+            this.btn_paramiform.TabIndex = 0;
+            this.btn_paramiform.Text = "form2";
+            this.btn_paramiform.UseVisualStyleBackColor = true;
+            this.btn_paramiform.Click += new System.EventHandler(this.btn_paramiform_Click);
+
             // 
             // Form1
             // 
@@ -53,12 +67,19 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.btn_paramiform);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
 
         private System.Windows.Forms.Label label1;
 
+       private System.Windows.Forms.Button btn_paramiform;
     }
 }
 
