@@ -56,12 +56,21 @@
             // label2
             // 
             this.label2.AutoSize = true;
+<<<<<<< HEAD
             this.label2.BackColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(252, 285);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(99, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Aprendiendo github";
+=======
+            this.label2.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(9, 179);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(348, 21);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "AQUI PROGRAMANDO O QUE HACE?";
+>>>>>>> 3bc61f2ba55809806c6c2d53969225e5a914de02
             // 
             // Form1
             // 
