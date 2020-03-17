@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.btn_paramiform = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbl_loququieras = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -53,8 +53,9 @@
             this.btn_paramiform.UseVisualStyleBackColor = true;
             this.btn_paramiform.Click += new System.EventHandler(this.btn_paramiform_Click);
             // 
-            // label2
+            // lbl_loququieras
             // 
+<<<<<<< HEAD
             this.label2.AutoSize = true;
 <<<<<<< HEAD
             this.label2.BackColor = System.Drawing.Color.Red;
@@ -71,6 +72,15 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "AQUI PROGRAMANDO O QUE HACE?";
 >>>>>>> 3bc61f2ba55809806c6c2d53969225e5a914de02
+=======
+            this.lbl_loququieras.AutoSize = true;
+            this.lbl_loququieras.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_loququieras.Location = new System.Drawing.Point(9, 179);
+            this.lbl_loququieras.Name = "lbl_loququieras";
+            this.lbl_loququieras.Size = new System.Drawing.Size(348, 21);
+            this.lbl_loququieras.TabIndex = 1;
+            this.lbl_loququieras.Text = "AQUI PROGRAMANDO O QUE HACE?";
+>>>>>>> 2a0df3abf28edee7ff2c9f4589f62bc6c9d2a0d5
             // 
             // Form1
             // 
@@ -78,7 +88,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(363, 307);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbl_loququieras);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_paramiform);
             this.Name = "Form1";
@@ -93,7 +103,7 @@
         private System.Windows.Forms.Label label1;
 
        private System.Windows.Forms.Button btn_paramiform;
-       private System.Windows.Forms.Label label2;
+       private System.Windows.Forms.Label lbl_loququieras;
     }
 }
 
