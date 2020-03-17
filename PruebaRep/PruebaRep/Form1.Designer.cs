@@ -52,48 +52,6 @@
             this.btn_paramiform.UseVisualStyleBackColor = true;
             this.btn_paramiform.Click += new System.EventHandler(this.btn_paramiform_Click);
             // 
-<<<<<<< HEAD
-<<<<<<< HEAD
-            // label2
-            // 
-<<<<<<< HEAD
-<<<<<<< HEAD
-            this.label2.AutoSize = true;
-<<<<<<< HEAD
-            this.label2.BackColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(252, 285);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(99, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Aprendiendo github";
-=======
-=======
-            this.label2.AutoSize = true;
->>>>>>> parent of 2a0df3a... cambiolabel
-            this.label2.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(9, 179);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(348, 21);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "AQUI PROGRAMANDO O QUE HACE?";
-<<<<<<< HEAD
->>>>>>> 3bc61f2ba55809806c6c2d53969225e5a914de02
-=======
-            this.lbl_loququieras.AutoSize = true;
-            this.lbl_loququieras.Font = new System.Drawing.Font("Papyrus", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_loququieras.Location = new System.Drawing.Point(9, 179);
-            this.lbl_loququieras.Name = "lbl_loququieras";
-            this.lbl_loququieras.Size = new System.Drawing.Size(348, 21);
-            this.lbl_loququieras.TabIndex = 1;
-            this.lbl_loququieras.Text = "AQUI PROGRAMANDO O QUE HACE?";
->>>>>>> 2a0df3abf28edee7ff2c9f4589f62bc6c9d2a0d5
-=======
->>>>>>> parent of 2a0df3a... cambiolabel
-            // 
-=======
->>>>>>> parent of 18ba841... agregue un label rojo
-=======
->>>>>>> parent of d16ecf7... Merge branch 'xd'
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
