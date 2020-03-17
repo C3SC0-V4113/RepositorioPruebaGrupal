@@ -30,7 +30,6 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.btn_paramiform = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -53,6 +52,7 @@
             this.btn_paramiform.UseVisualStyleBackColor = true;
             this.btn_paramiform.Click += new System.EventHandler(this.btn_paramiform_Click);
             // 
+<<<<<<< HEAD
             // label2
             // 
 <<<<<<< HEAD
@@ -89,13 +89,14 @@
 =======
 >>>>>>> parent of 2a0df3a... cambiolabel
             // 
+=======
+>>>>>>> parent of 18ba841... agregue un label rojo
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(363, 307);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_paramiform);
             this.Name = "Form1";
@@ -110,7 +111,6 @@
         private System.Windows.Forms.Label label1;
 
        private System.Windows.Forms.Button btn_paramiform;
-       private System.Windows.Forms.Label label2;
     }
 }
 
