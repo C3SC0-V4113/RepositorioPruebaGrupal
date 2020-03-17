@@ -53,6 +53,7 @@
             this.btn_paramiform.Click += new System.EventHandler(this.btn_paramiform_Click);
             // 
 <<<<<<< HEAD
+<<<<<<< HEAD
             // label2
             // 
 <<<<<<< HEAD
@@ -91,6 +92,8 @@
             // 
 =======
 >>>>>>> parent of 18ba841... agregue un label rojo
+=======
+>>>>>>> parent of d16ecf7... Merge branch 'xd'
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
