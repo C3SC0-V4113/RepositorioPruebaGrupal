@@ -31,6 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btn_paramiform = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.lbl_quehace = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -63,6 +64,15 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "ojala que funcione";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // lbl_quehace
+            // 
+            this.lbl_quehace.AutoSize = true;
+            this.lbl_quehace.Font = new System.Drawing.Font("Papyrus", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_quehace.Location = new System.Drawing.Point(12, 176);
+            this.lbl_quehace.Name = "lbl_quehace";
+            this.lbl_quehace.Size = new System.Drawing.Size(334, 19);
+            this.lbl_quehace.TabIndex = 1;
+            this.lbl_quehace.Text = "PROGRAMANDO EN GIT O QUE HACE?";
             // 
             // Form1
             // 
@@ -71,6 +81,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(363, 307);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbl_quehace);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_paramiform);
             this.Name = "Form1";
@@ -86,6 +97,7 @@
 
        private System.Windows.Forms.Button btn_paramiform;
        private System.Windows.Forms.Label label2;
+       private System.Windows.Forms.Label lbl_quehace;
     }
 }
 
